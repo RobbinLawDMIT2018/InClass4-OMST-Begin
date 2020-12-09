@@ -40,7 +40,7 @@
                AppendDataBoundItems="true" Height="26px"
                DataSourceID="LocationDataSource" 
                DataTextField="DisplayText" 
-                               DataValueField="DisplayValue"
+               DataValueField="DisplayValue"
                 AutoPostBack="true" >
                <asp:ListItem Value="0" Text="[Select a location]" />
            </asp:DropDownList>&nbsp;&nbsp;
@@ -49,7 +49,8 @@
            <asp:DropDownList ID="TheatreNumbers" runat="server" 
                DataSourceID="TheatreDataSource" 
                DataTextField="DisplayText" 
-               DataValueField="DisplayValue">
+               DataValueField="DisplayValue"
+               AutoPostBack="true" >
            </asp:DropDownList>&nbsp;&nbsp;
            <asp:Label ID="Label2" runat="server" Text="Date" AssociatedControlID="ShowDate" />
            <asp:TextBox ID="ShowDate" runat="server" TextMode="Date" Text="2018-04-23" />&nbsp;&nbsp;
@@ -142,7 +143,7 @@
                    </asp:TemplateField>
                </Columns>
                <EmptyDataTemplate>
-                   The theatre has movies already scheduled for that date.
+                   No Data.
                </EmptyDataTemplate>
            </asp:GridView>
            <asp:ObjectDataSource runat="server" ID="TheatreScheduleSource" 
