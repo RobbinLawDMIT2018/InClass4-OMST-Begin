@@ -26,20 +26,20 @@ namespace OMSTSystem.BLL
             //          DateTime.AddMintues() 
             //          new TimeSpan(17,30,0) which is 5:30 pm
             // RULES:
-            //  - all scheduling slots are are filled for the theatres
+            //  - all 4 scheduling slots are are filled for the theatre
             //  - 20 mintues between all movie start/end times
             //  - No movie "overlaps" - movie cannot start in a theatre on that DATE
             //          if the TIME of the previous movie has not "ended"
+            //          Assume each movie is 2 hours long.
             //          (including the 20 minutes above)
             //  - No movies can start earlier than 11 AM
             //  - No movies can end after 11 PM
-            //  - Capture ALL errors and throw them as a SINGLE BusinessRuleException 
-            //            with EACH conflicting time slot identified.  
-            //            Identify the Start Time and the Movie
-            //      - e.g.: to create an error message use:
-            //                  errorStrings.Add("put your error message string here");
-            //              to throw the list of error messages use
-            //                  throw new BusinessRuleException("title", errorStrings);
+            //  - You have the option of throwing an exception for each error OR
+            //      captureing all errors and throw them as a single BusinessRuleException 
+            //          - e.g.: to create an error message use:
+            //                      errorStrings.Add("put your error message string here");
+            //                  then to throw the list of error messages use
+            //                      throw new BusinessRuleException("title", errorStrings);
 
             #region Do NOT remove or change the following lines
             // Do NOT remove or change the following lines
