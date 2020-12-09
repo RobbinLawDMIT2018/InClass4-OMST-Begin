@@ -30,16 +30,16 @@ namespace OMSTSystem.BLL
             //  - 20 mintues between all movie start/end times
             //  - No movie "overlaps" - movie cannot start in a theatre on that DATE
             //          if the TIME of the previous movie has not "ended"
-            //          Assume each movie is 2 hours long.
+            //          Each movie has a length defined in the movies table.
             //          (including the 20 minutes above)
             //  - No movies can start earlier than 11 AM
             //  - No movies can end after 11 PM
             //  - You have the option of throwing an exception for each error OR
             //      captureing all errors and throw them as a single BusinessRuleException 
             //          - e.g.: to create an error message use:
-            //                      errorStrings.Add("put your error message string here");
+            //                      brokenRules.Add("put your error message string here");
             //                  then to throw the list of error messages use
-            //                      throw new BusinessRuleException("title", errorStrings);
+            //                      throw new BusinessRuleException("title", brokenRules);
 
             #region Do NOT remove or change the following lines
             // Do NOT remove or change the following lines
