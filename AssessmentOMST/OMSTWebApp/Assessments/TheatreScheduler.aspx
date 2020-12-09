@@ -50,7 +50,7 @@
                DataSourceID="TheatreDataSource" 
                DataTextField="DisplayText" 
                DataValueField="DisplayValue"
-               AutoPostBack="true" >
+               AutoPostBack="false" >
            </asp:DropDownList>&nbsp;&nbsp;
            <asp:Label ID="Label2" runat="server" Text="Date" AssociatedControlID="ShowDate" />
            <asp:TextBox ID="ShowDate" runat="server" TextMode="Date" Text="2018-04-23" />&nbsp;&nbsp;
