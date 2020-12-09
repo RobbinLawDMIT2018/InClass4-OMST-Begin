@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMSTWebApp", "OMSTWebApp\OMSTWebApp.csproj", "{CA8C678C-03F2-4B1A-B05A-08FFDF7D8B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMSTSystem", "OMSTSystem\OMSTSystem.csproj", "{C848459F-1361-4671-A325-62FD5CD78BC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA8C678C-03F2-4B1A-B05A-08FFDF7D8B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8C678C-03F2-4B1A-B05A-08FFDF7D8B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8C678C-03F2-4B1A-B05A-08FFDF7D8B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8C678C-03F2-4B1A-B05A-08FFDF7D8B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C848459F-1361-4671-A325-62FD5CD78BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C848459F-1361-4671-A325-62FD5CD78BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C848459F-1361-4671-A325-62FD5CD78BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C848459F-1361-4671-A325-62FD5CD78BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88400B8F-9EDD-409C-A6DE-B0C52E684A68}
+	EndGlobalSection
+EndGlobal
