@@ -62,11 +62,11 @@ namespace OMSTWebApp.Assessments
                 movies.Add(show);
 
             //slot3
-            if (TryBuildMovieBooking(row, baseDate, "MovieSlot_2", "StartTimeSlot_3", out show))
+            if (TryBuildMovieBooking(row, baseDate, "MovieSlot_3", "StartTimeSlot_3", out show))
                 movies.Add(show);
 
             //slot4
-            if (TryBuildMovieBooking(row, baseDate, "MovieSlot_2", "StartTimeSlot_4", out show))
+            if (TryBuildMovieBooking(row, baseDate, "MovieSlot_4", "StartTimeSlot_4", out show))
                 movies.Add(show);
             return movies;
         }
